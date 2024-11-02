@@ -11,4 +11,5 @@ Tugas Praktikum
 ![alt text](image-3.png)
 2.Implementasi sistem untuk delete pengguna dengan otorisasi admin
 ![alt text](image-4.png)
-
+3.Buat API untuk mengambil daftar semua pengguna (hanya bisa diakses oleh admin).
+![alt text](image-5.png)

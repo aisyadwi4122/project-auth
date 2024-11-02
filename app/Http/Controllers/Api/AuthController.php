@@ -90,4 +90,12 @@ class AuthController extends Controller
 
         return response()->json(['message' => 'User deleted successfully'], 200);
     }
+
+    public function getAllUsers()
+    {
+        // Ambil semua pengguna dari database
+        $users = User::all();
+
+        return response()->json(['users' => $users], 200);
+    }
 }
